@@ -1,5 +1,5 @@
 {
-    "name":"scyfel/mailFromTable",
+    "name":"scyfel/mailfromtable",
     "description":"Inserts an email from the database for an ID in a form",
     "keywords":["contao", "form", "recipient", "email"],
     "type":"contao-module",
@@ -14,8 +14,8 @@
     ],
     "support":{
             "email":"hallo@christianbarkowsky.de",
-            "issues":"https://github.com/scyfel/mailFromTable/issues",
-            "source":"https://github.com/scyfel/mailFromTable"
+            "issues":"https://github.com/scyfel/mailfromtable/issues",
+            "source":"https://github.com/scyfel/mailfromtable"
     },
     "require":{
             "php":">=5.3",
