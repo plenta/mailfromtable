@@ -4,6 +4,8 @@
  * Contact maintainer Jan Theofel: jan@theofel.de
  *
  * PHP version 5
+ * @copyright  Christian Barkowsky 2015
+ * @author     Christian Barkowsky <hallo@christianbarkowsky.de>
  * @copyright  Jan Theofel 2013
  * @author     Jan Theofel <jan@theofel.de>
  * @license    http://opensource.org/licenses/lgpl-3.0.html
@@ -63,7 +65,7 @@ class FormMailFromTable extends \FormHidden
 	 */
 	public function validate()
 	{	
-		$varValue = deserialize($this->getPost($this->strName));
+		$varValue = deserialize(\Input::get($this->strName));
 		
 		if (preg_match("/\D/", $varValue))
 		{
@@ -72,5 +74,4 @@ class FormMailFromTable extends \FormHidden
 		
 		$this->varValue = $varValue;
 	}
-	
 }
