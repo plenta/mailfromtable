@@ -24,7 +24,7 @@
   "extra": {
     "contao": {
       "sources": {
-        "": "system/modules/mailFromTable"
+        "mailFromTable": "system/modules/mailFromTable"
       }
     }
   }
