@@ -21,9 +21,6 @@
     "php":">=5.3",
     "contao/core": ">=3.3,<4"
   },
-  "replace": {
-    "contao-legacy/mailfromtable": "self.version"
-  },
   "extra": {
     "contao": {
       "sources": {
