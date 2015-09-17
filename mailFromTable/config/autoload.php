@@ -1,13 +1,13 @@
 <?php
 
-/**
- * Contao Open Source CMS
+/*
+ * mailFromTable
  *
- * Copyright (c) 2005-2013 Leo Feyer
- *
- * @package Protectedselect
- * @link    https://contao.org
- * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
+ * @copyright   Christian Barkowsky 2015
+ * @copyright   Jan Theofel 2013
+ * author       Christian Barkowsky <hallo@christianbarkowsky.de>
+ * @author      Jan Theofel <jan@theofel.de>
+ * @license     http://opensource.org/licenses/lgpl-3.0.html
  */
 
 
@@ -16,5 +16,5 @@
  */
 ClassLoader::addClasses(array
 (
-	'Contao\FormMailFromTable' => 'system/modules/mailFromTable/forms/FormMailFromTable.php',
+    'Contao\FormMailFromTable' => 'system/modules/mailFromTable/forms/FormMailFromTable.php',
 ));

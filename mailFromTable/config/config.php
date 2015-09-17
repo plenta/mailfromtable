@@ -1,13 +1,14 @@
-<?php if (!defined('TL_ROOT')) die('You can not access this file directly!');
+<?php
 
 /*
- * Contact maintainer Jan Theofel: jan@theofel.de
+ * mailFromTable
  *
- * PHP version 5
- * @copyright  Jan Theofel 2013
- * @author     Jan Theofel <jan@theofel.de>
- * @license    http://opensource.org/licenses/lgpl-3.0.html
- * @version    $Id: $
+ * @copyright   Christian Barkowsky 2015
+ * @copyright   Jan Theofel 2013
+ * author       Christian Barkowsky <hallo@christianbarkowsky.de>
+ * @author      Jan Theofel <jan@theofel.de>
+ * @license     http://opensource.org/licenses/lgpl-3.0.html
  */
+
 
 $GLOBALS['TL_FFL']['mailFromTable'] = 'FormMailFromTable';

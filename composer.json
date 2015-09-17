@@ -1,31 +1,34 @@
 {
-    "name":"scyfel/mailfromtable",
-    "description":"Inserts an email from the database for an ID in a form",
-    "keywords":["contao", "form", "recipient", "email"],
-    "type":"contao-module",
-    "license":"LGPL-3.0+",
-    "authors":[
-        {
-            "name":"Christoph Barkowsky",
-            "email":"hallo@christianbarkowsky.de",
-            "homepage":"http://christianbarkowsky.de",
-            "role":"Developer"
-        }
-    ],
-    "support":{
-            "email":"hallo@christianbarkowsky.de",
-            "issues":"https://github.com/scyfel/mailfromtable/issues",
-            "source":"https://github.com/scyfel/mailfromtable"
-    },
-    "require":{
-            "php":">=5.3",
-            "contao/core": ">=3.3,<4"
-    },
-    "extra": {
-        "contao": {
-            "sources": {
-                "": "system/modules/mailFromTable"
-            }
-        }
+  "name":"scyfel/mailfromtable",
+  "description":"Inserts an email from the database for an ID in a form",
+  "keywords":["contao", "form", "recipient", "email"],
+  "type":"contao-module",
+  "license":"LGPL-3.0+",
+  "authors":[
+    {
+      "name":"Christoph Barkowsky",
+      "email":"hallo@christianbarkowsky.de",
+      "homepage":"http://christianbarkowsky.de",
+      "role":"Developer"
     }
+  ],
+  "support":{
+    "email":"hallo@christianbarkowsky.de",
+    "issues":"https://github.com/scyfel/mailfromtable/issues",
+    "source":"https://github.com/scyfel/mailfromtable"
+  },
+  "require":{
+    "php":">=5.3",
+    "contao/core": ">=3.3,<4"
+  },
+  "replace": {
+    "contao-legacy/mailfromtable": "self.version"
+  },
+  "extra": {
+    "contao": {
+      "sources": {
+        "": "system/modules/mailFromTable"
+      }
+    }
+  }
 }
